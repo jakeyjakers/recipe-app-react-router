@@ -1,0 +1,31 @@
+.header {
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(234, 169, 39);
+    position: relative;
+}
+.header h2 {
+    font-size: 4vh;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    color: white;
+}
+.header__links {
+    width: 240px;
+    height: 40px;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__links button {
+    background: none;
+    border: none;
+    font-size: 21px;
+}
+.header__links button:hover{
+    cursor: pointer;
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import { ImFacebook, ImInstagram, ImTwitter, ImGithub } from "react-icons/im";
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
+    <footer className="footer">
+      <div className="footer__nav">
         <h5>Hit us up on our socials!</h5>
-        <div>
+        <div className="footer__nav__inner">
           <a href="https://www.devmountain.com" target="_blank">
             <ImFacebook size="1.5em" color="#3f3f3f" />
           </a>
@@ -22,6 +23,7 @@ const Footer = () => {
         </div>
       </div>
       <svg
+      className="footer__dev"
         width="110"
         height="110"
         viewBox="0 0 512 512"
