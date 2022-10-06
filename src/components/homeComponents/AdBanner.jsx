@@ -1,6 +1,7 @@
 import React from "react";
 import salmon from "../../assets/salmon.jpg";
 import { Link } from "react-router-dom";
+import './AdBanner.css'
 
 const AdBanner = () => {
   return (
@@ -14,10 +15,10 @@ const AdBanner = () => {
         backgroundSize: "cover",
       }}
     >
-      <div>
-        <h3>New Recipe</h3>
-        <h1>Pineapple Salmon</h1>
-        <h3>
+      <div className="ad-banner">
+        <h3 className="ad-banner__new">New Recipe</h3>
+        <h1 className="ad-banner__title">Pineapple Salmon</h1>
+        <h3 className="ad-banner__description">
           This recipe consists of fresh wild Alaskan salmon, rubbed in a bbq
           brown sugar rub, baked for 25 minutes on a bed of pineapple, and garnished in butter, garlic, and chives. You won’t want to miss it!
         </h3>

@@ -1,0 +1,31 @@
+.home-screen{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    background-color: rgba(231, 184, 81, 0.7);
+    margin: 20px;
+    border-radius: 17px;
+}
+.search-container img {
+    height: 2.5rem;
+}
+.search-container input {
+    height: 1.5rem;
+    background: none;
+    border: none;
+    width: 17vw;
+}
+.home-screen__display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}

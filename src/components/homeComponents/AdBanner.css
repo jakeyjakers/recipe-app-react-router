@@ -1,0 +1,31 @@
+.ad-banner {
+    height: 320px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.ad-banner__new {
+    color: white;
+    font-size: large;
+}
+.ad-banner__title {
+    color: rgb(234, 169, 39);
+    font-size: x-large;
+}
+.ad-banner__description {
+    width: 50vw;
+    color: white;
+    line-height: 20px;
+}
+.blue-btn {
+    height: 7vh;
+    width: 10vw;
+    background-color: rgb(76, 176, 190);
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}

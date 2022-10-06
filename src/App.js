@@ -5,16 +5,18 @@ import { Routes, Route } from "react-router-dom";
 import Homescreen from './components/homeComponents/HomeScreen'
 import NewRecipeScreen from "./components/newRecipeComponents/NewRecipeScreen";
 import DetailScreen from "./components/detailComponents/DetailScreen";
+//import AdBanner from "./components/homeComponents/AdBanner";
 
 function App() {
   return (
     <div className="App">
       <Header />
         <Routes>
-          <Route index path='/welcome' element={<Homescreen/>}/>
+          <Route index element={<Homescreen/>}/>
           <Route path="/newRecipe" element={<NewRecipeScreen />}/>
           <Route path="/recipe/:id" element={<DetailScreen />}/>
         </Routes>
+        
       <Footer />
     </div>
   );
